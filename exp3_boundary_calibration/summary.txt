@@ -1,0 +1,30 @@
+Experiment 3: Boundary calibration and stability
+============================================================
+n_positive_total = 8
+n_calibration = 5
+n_holdout = 3
+
+Frozen boundaries proposed from calibration split:
+{
+  "spacing_mode_centers": [
+    2.3193359375
+  ],
+  "spacing_boundaries": [],
+  "jitter_boundaries": [
+    0.2840817661155349,
+    0.29334401481188344
+  ],
+  "occupancy_boundaries": [
+    0.20606060606060606,
+    0.2424242424242424
+  ],
+  "dwell_boundaries": []
+}
+
+Holdout metrics:
+  holdout_label_consistency: 0.6666666666666666
+  near_boundary_fraction: 0.0
+  class_imbalance_max_fraction: 1.0
+  class_imbalance_entropy: -0.0
+
+Version-to-version relabel rate (v1 vs bootstrap-median v2): 0.0

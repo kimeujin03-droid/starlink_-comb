@@ -1,0 +1,2 @@
+n_samples,n_positive,n_negative,precision,recall,fpr,fnr,tp,fp,tn,fn
+16,11,5,0.6,0.2727272727272727,0.4,0.7272727272727273,3,2,3,8
